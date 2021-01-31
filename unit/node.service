@@ -1,0 +1,13 @@
+[Unit]
+Description=Node
+After=network.target
+
+[Service]
+Type=simple
+User=nobody
+SyslogIdentifier=node
+EnvironmentFile=/etc/default/node
+ExecStart=/opt/zcu-kiv-ds-2/node.py
+
+[Install]
+WantedBy=multi-user.target
