@@ -81,7 +81,7 @@ See the [Chandy–Lamport algorithm](https://en.wikipedia.org/wiki/Chandy%E2%80%
 }
 ```
 
-`STATE` message used to send the resulting bank account balance to the node trying to obtain a snapshot.
+`STATE` message used to send the resulting bank account balance to a node obtaining a snapshot.
 
 ```json
 {
