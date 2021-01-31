@@ -58,7 +58,7 @@ Examples of all message types are listed below. All messages are in JSON format.
 ```
 
 `DEBIT` message used to request a certain amount from another bank account.
-The target node replies with a `CREDIT` message if it has a sufficient balance in its bank account.
+The target node replies with a `CREDIT` message if it has a sufficient account balance.
 
 ```json
 {
